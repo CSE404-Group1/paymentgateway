@@ -1,4 +1,28 @@
 <html>
+	<head>
+		<style>
+			form{
+				margin-top: 80px;
+			}
+			input{
+				width: 400px;
+				height: 40px;
+				display: block;
+				margin-bottom: 5px;
+				padding: 10px;
+				margin: 5px;
+				font-size: 16px;
+			}
+			.button{
+				width: 200px;
+				height: 45px;
+				font-size: 18px;
+				
+			}
+		</style>
+	</head>
+	<center>
+		<h3>KomEKinun Donation form</h3>
 	<form action="http://developer.qpay.co/module/index.php" method="post">
 		<input type="text" value="Mamun" name="cust_name"/>
 		<input type="text" value="mukhulaazam@gmail.com" name="cust_email"/>
@@ -9,8 +33,9 @@
 		<input type="text" value="i don't want that" name="product_details"/>
 		<input type="hidden" value="qpay_komekinun" name="store_name"/>
 		<input type="hidden" value="1" name="tran_id"/>
-		<div style="background-color: #1151A7">
-		<input type="submit"  value="Submit" style="background-color: #3C9000; color: #FFEFEF" />
+		<div>
+		<input class="button" type="submit"  value="Submit"/>
 		</div>
 	</form>
+</center>
 </html>
